@@ -6,9 +6,12 @@ const MainLayout = ({ children }) => {
 };
 
 const MainLayoutStyled = styled.div`
+  padding: 0 40px;
+
   ${({ theme }) => theme.mediaDesktop} {
-    max-width: 1120px;
+    max-width: 1220px;
     margin: 0 auto;
+    padding: 0;
   }
 `;
 

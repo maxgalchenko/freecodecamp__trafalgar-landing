@@ -22,12 +22,13 @@ const theme = {
     blue: '#458FF6',
     darkBlue: '#233348',
     white: 'white',
+    black: 'black',
   },
 
   font: {
-    italic: {
-      fontWeight: 400,
-      fontStyle: 'italic',
+    light: {
+      fontWeight: 300,
+      fontStyle: 'normal',
     },
     regular: {
       fontWeight: 400,

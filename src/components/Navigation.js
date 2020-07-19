@@ -12,11 +12,16 @@ const Navigation = () => {
   ];
 
   return (
-    <NavigationStyled>
+    <NavigationStyled id='navbar'>
       <ul>
         {data.map(({ href, title }, index) => (
           <li key={index}>
-            <NavLink to={href} exact activeClassName='currentLink'>
+            <NavLink
+              to={href}
+              exact
+              activeClassName='currentLink'
+              className='nav-link'
+            >
               {title}
             </NavLink>
           </li>
