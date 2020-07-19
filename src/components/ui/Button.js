@@ -1,8 +1,13 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-const Button = ({ blue, title }) => {
-  return <ButtonStyled blue={blue}>{title}</ButtonStyled>;
+const Button = ({ blue, title, icon }) => {
+  return (
+    <ButtonStyled blue={blue}>
+      {title}
+      {icon}
+    </ButtonStyled>
+  );
 };
 
 const ButtonStyled = styled.button`
@@ -18,7 +23,11 @@ const ButtonStyled = styled.button`
   line-height: 18px;
   ${({ theme }) => theme.font.bold};
   border-radius: 55px;
-  display: block;
+  ${({ theme }) => theme.flex.center};
+
+  svg, img {
+    margin-left: 10px;
+  }
 `;
 
 export default Button;

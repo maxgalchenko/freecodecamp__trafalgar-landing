@@ -30,7 +30,7 @@ const Hero = () => {
             <Button title='Consult today' blue />
           </div>
         }
-        right={<img src={heroImg} />}
+        right={<img src={heroImg} alt='hospitality' />}
       ></LayoutImgAndContent>
     </HeroStyled>
   );

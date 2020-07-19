@@ -1,8 +1,11 @@
 import React from 'react';
-import Typography1 from './ui/Typography1';
 import styled from '@emotion/styled';
+import Typography1 from './ui/Typography1';
 import Separator from './ui/Separator';
 import SecondaryLayout from './layouts/SecondaryLayout';
+import Card from './ui/Card';
+import Button from './ui/Button';
+// Images
 import {
   consultation,
   emergency,
@@ -11,8 +14,8 @@ import {
   tracking,
   search,
 } from '../images/cardIcons';
-import Card from './ui/Card';
-import Button from './ui/Button';
+import bgIcon from '../images/ourServicesBg.png';
+import dotsIcon from '../images/dots2.png';
 
 const OurServices = () => {
   const data = [
@@ -73,6 +76,7 @@ const OurServices = () => {
             lineHeight='30'
             marginBottom='80'
             as='p'
+            opacity='0.5'
           />
         </div>
         <ul>
@@ -87,12 +91,38 @@ const OurServices = () => {
 };
 
 const OurServicesStyled = styled.section`
+  position: relative;
+
+  &::after,
+  &::before {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+
+  &::after {
+    width: 132px;
+    height: 115px;
+    background-image: url(${dotsIcon});
+    left: -172px;
+    top: 88px;
+  }
+
+  &::before {
+    width: 940px;
+    height: 670px;
+    background-image: url(${bgIcon});
+    left: -172px;
+    top: 88px;
+  }
   .text-wrap {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: center;
     justify-content: space-between;
     padding: 0 85px;
   }
@@ -101,6 +131,7 @@ const OurServicesStyled = styled.section`
     ${({ theme }) => theme.flex.between};
     margin-bottom: 70px;
     flex-wrap: wrap;
+    justify-content: space-between;
     li {
       max-width: 350px;
     }
