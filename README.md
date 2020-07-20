@@ -1,4 +1,4 @@
-#**Trafalgar** (Virtual healthcare site) landing page
+#Trafalgar (Virtual healthcare site) landing page
 
 ## Tech used: React, Create react app, emotion lib (css-in-js), react router dom.
 
