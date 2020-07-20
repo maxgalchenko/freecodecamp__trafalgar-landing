@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f5025d42d02ce372a24e5f2313b5a8c",
+    "revision": "f30b4ef3cd006cd7c166305a1a508991",
     "url": "/freecodecamp__trafalgar-landing/index.html"
   },
   {
-    "revision": "53884040aab9da3077ad",
-    "url": "/freecodecamp__trafalgar-landing/static/js/2.d0d09470.chunk.js"
+    "revision": "e47fa3cc10f67ef52b7e",
+    "url": "/freecodecamp__trafalgar-landing/static/js/2.6b28826d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/freecodecamp__trafalgar-landing/static/js/2.d0d09470.chunk.js.LICENSE.txt"
+    "url": "/freecodecamp__trafalgar-landing/static/js/2.6b28826d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99489f72943f38f8d3df",
-    "url": "/freecodecamp__trafalgar-landing/static/js/main.cbd210e3.chunk.js"
+    "revision": "d393da699a38f5c2a81b",
+    "url": "/freecodecamp__trafalgar-landing/static/js/main.182bafb2.chunk.js"
   },
   {
     "revision": "559d69316054d6f485c7",
