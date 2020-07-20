@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/freecodecamp__trafalgar-landing/precache-manifest.7946dd0471a30b7792cdb7d35ccb302d.js"
+  "/freecodecamp__trafalgar-landing/precache-manifest.8b4834997d6b4d2d9d3dff50ad7a604c.js"
 );
 
 self.addEventListener('message', (event) => {
