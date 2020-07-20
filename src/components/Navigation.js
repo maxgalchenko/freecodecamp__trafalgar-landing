@@ -4,11 +4,17 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   const data = [
-    { title: 'Home', href: '/', exact: 'true' },
-    { title: 'Find a doctor', href: '/find-a-doctor' },
-    { title: 'Apps', href: '/apps' },
-    { title: 'Testimonials', href: '/testimonials' },
-    { title: 'About us', href: '/about-us' },
+    { title: 'Home', href: '/freecodecamp__trafalgar-landing/', exact: 'true' },
+    {
+      title: 'Find a doctor',
+      href: '/freecodecamp__trafalgar-landing/find-a-doctor',
+    },
+    { title: 'Apps', href: '/freecodecamp__trafalgar-landing/apps' },
+    {
+      title: 'Testimonials',
+      href: '/freecodecamp__trafalgar-landing/testimonials',
+    },
+    { title: 'About us', href: '/freecodecamp__trafalgar-landing/about-us' },
   ];
 
   return (

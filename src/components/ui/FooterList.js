@@ -7,9 +7,8 @@ const FooterList = ({ data }) => {
   return (
     <FooterListStyled>
       {data.map((item, index) => (
-        <Link to='/' key={index}>
+        <Link to='/freecodecamp__trafalgar-landing/' key={index}>
           <Typography1
-            text={item.name}
             fontSize='18'
             lineHeight='38'
             color='white'

@@ -10,7 +10,6 @@ const FooterTitle = (props) => {
       as='h3'
       color='white'
       bold
-      as='p'
     />
   );
 };
