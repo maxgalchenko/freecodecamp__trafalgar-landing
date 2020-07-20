@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c5a1b72909c5367db4bc2f0d04d0c19",
+    "revision": "dd173cfab98880ff185bfc957fe5618c",
     "url": "/freecodecamp__trafalgar-landing/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/freecodecamp__trafalgar-landing/static/js/2.4c9a0be2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7535a540095b11e02316",
-    "url": "/freecodecamp__trafalgar-landing/static/js/main.02015f9e.chunk.js"
+    "revision": "e670336c9de82b6ec1c7",
+    "url": "/freecodecamp__trafalgar-landing/static/js/main.0bf229df.chunk.js"
   },
   {
     "revision": "559d69316054d6f485c7",
