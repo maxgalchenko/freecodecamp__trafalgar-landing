@@ -5,6 +5,7 @@ import Header from './components/Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/home';
 import NoMatch from './pages/noMatch';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <NoMatch />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </Theme>
   );

@@ -2,9 +2,9 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 
-const Logo = () => {
+const Logo = (props) => {
   return (
-    <LogoStyled to='/' id='header-img'>
+    <LogoStyled to='/' id='header-img' {...props}>
       <span className='logo' />
       <span className='text'>Trafalgar</span>
     </LogoStyled>
@@ -17,12 +17,16 @@ const LogoStyled = styled(Link)`
   ${({ theme }) => theme.font.bold};
   font-size: 24px;
   line-height: 24px;
+  margin-bottom: ${(props) =>
+    props.mb ? `${props.mb}px` : 0};
 
   .logo {
     width: 40px;
     height: 40px;
-    background: ${({ theme }) => theme.colors.blue};
-    color: ${({ theme }) => theme.colors.white};
+    background: ${(props) =>
+      props.white ? props.theme.colors.white : props.theme.colors.blue};
+    color: ${(props) =>
+      props.white ? props.theme.colors.blue : props.theme.colors.white};
     margin-right: 12px;
     border-radius: 50%;
     position: relative;
@@ -37,7 +41,8 @@ const LogoStyled = styled(Link)`
   }
 
   .text {
-    color: ${({ theme }) => theme.colors.darkblue};
+    color: ${(props) =>
+      props.white ? props.theme.colors.white : props.theme.colors.darkblue};
   }
 `;
 

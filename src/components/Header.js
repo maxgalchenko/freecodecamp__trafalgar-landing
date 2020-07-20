@@ -6,25 +6,32 @@ import Navigation from './Navigation';
 const Header = () => {
   return (
     <HeaderStyled id='header'>
-      <Logo />
-      <Navigation />
+      <div className='wrap'>
+        <Logo />
+        <Navigation />
+      </div>
     </HeaderStyled>
   );
 };
 const HeaderStyled = styled.header`
-  ${({ theme }) => theme.flex.between};
-  padding: 56px 0 20px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 95%;
-  z-index: 1000;
   background: ${({ theme }) => theme.colors.white};
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  .wrap {
+    ${({ theme }) => theme.flex.between};
+    padding: 56px 0 20px 0;
+    width: 100%;
+    max-width: 95%;
+    margin:0 auto;
+    z-index:inherit;
+  }
 
   ${({ theme }) => theme.mediaDesktop} {
-    max-width: 1220px;
+    .wrap {
+      max-width: 1220px;
+    }
   }
 `;
 

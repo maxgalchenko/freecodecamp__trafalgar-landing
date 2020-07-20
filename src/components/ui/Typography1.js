@@ -11,7 +11,7 @@ const Typography1Styled = styled.h2`
   margin-bottom: ${(props) => `${props.marginBottom}px`};
   opacity: ${(props) => (props.opacity ? props.opacity : 1)};
   ${({ theme }) => theme.font.bold};
-  color: ${({ theme }) => theme.colors.black};
+  color: ${(props) => (props.color ? props.color : props.theme.colors.black)};
   ${(props) => (props.bold ? props.theme.font.bold : props.theme.font.light)};
 `;
 

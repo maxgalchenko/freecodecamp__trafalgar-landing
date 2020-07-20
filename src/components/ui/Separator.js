@@ -1,14 +1,15 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-const Separator = ({ marginBottom }) => {
-  return <SeparatorStyles marginBottom={marginBottom} />;
+const Separator = ({ marginBottom, color }) => {
+  return <SeparatorStyles marginBottom={marginBottom} color={color} />;
 };
 
 const SeparatorStyles = styled.div`
   height: 2px;
   width: 56px;
-  background: ${({ theme }) => theme.colors.black};
+  background: ${(props) =>
+    props.color ? props.color : props.theme.colors.black};
   margin-bottom: ${(props) => `${props.marginBottom}px`};
 `;
 

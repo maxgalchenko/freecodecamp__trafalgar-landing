@@ -24,9 +24,19 @@ const ButtonStyled = styled.button`
   ${({ theme }) => theme.font.bold};
   border-radius: 55px;
   ${({ theme }) => theme.flex.center};
+  transition: background 0.3s ease-out;
+  cursor: pointer;
 
-  svg, img {
+  svg,
+  img {
     margin-left: 10px;
+  }
+
+  &:hover,
+  &:active {
+    background: #fc85ae;
+    color: white;
+    border: none;
   }
 `;
 

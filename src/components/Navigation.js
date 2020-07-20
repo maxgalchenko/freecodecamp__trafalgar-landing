@@ -44,6 +44,12 @@ const NavigationStyled = styled.nav`
 
   li {
     padding: 0 20px;
+    transition: all 0.3s ease-out;
+
+    &:hover,
+    &:active {
+      color: #fc85ae;
+    }
   }
 
   a {

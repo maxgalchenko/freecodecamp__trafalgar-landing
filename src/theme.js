@@ -1,5 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from 'emotion-theming';
+// images
+import dots2 from './images/dots2.png';
 
 const theme = {
   mediaTablet: '@media(min-width: 768px)',
@@ -23,6 +25,18 @@ const theme = {
     darkBlue: '#233348',
     white: 'white',
     black: 'black',
+  },
+
+  styles: {
+    dots: {
+      position: 'absolute',
+      backgroundImage: `url(${dots2})`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      width: 132,
+      height: 115,
+    },
   },
 
   font: {

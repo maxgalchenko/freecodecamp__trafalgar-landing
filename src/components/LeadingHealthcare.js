@@ -81,6 +81,16 @@ in the solutions we deliver'
 };
 
 const LeadingHealthcareStyled = styled.section`
+  position: relative;
+  overflow: hidden;
+  &::before {
+    ${({ theme }) => theme.styles.dots};
+    top: 500px;
+    right: -44px;
+    opacity: 0.3;
+    content: '';
+  }
+
   .content-wrap {
     max-width: 450px;
   }
