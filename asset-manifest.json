@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/freecodecamp__trafalgar-landing/static/js/main.02015f9e.chunk.js",
+    "main.js.map": "/freecodecamp__trafalgar-landing/static/js/main.02015f9e.chunk.js.map",
+    "runtime-main.js": "/freecodecamp__trafalgar-landing/static/js/runtime-main.7ef1004c.js",
+    "runtime-main.js.map": "/freecodecamp__trafalgar-landing/static/js/runtime-main.7ef1004c.js.map",
+    "static/js/2.4c9a0be2.chunk.js": "/freecodecamp__trafalgar-landing/static/js/2.4c9a0be2.chunk.js",
+    "static/js/2.4c9a0be2.chunk.js.map": "/freecodecamp__trafalgar-landing/static/js/2.4c9a0be2.chunk.js.map",
+    "index.html": "/freecodecamp__trafalgar-landing/index.html",
+    "precache-manifest.55a7e650321b98dc4e291a52ce1f3861.js": "/freecodecamp__trafalgar-landing/precache-manifest.55a7e650321b98dc4e291a52ce1f3861.js",
+    "service-worker.js": "/freecodecamp__trafalgar-landing/service-worker.js",
+    "static/js/2.4c9a0be2.chunk.js.LICENSE.txt": "/freecodecamp__trafalgar-landing/static/js/2.4c9a0be2.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/freecodecamp__trafalgar-landing/static/media/1.345b92cc.png",
+    "static/media/2.png": "/freecodecamp__trafalgar-landing/static/media/2.4d23c403.png",
+    "static/media/3.png": "/freecodecamp__trafalgar-landing/static/media/3.109f7279.png",
+    "static/media/downloadBg.png": "/freecodecamp__trafalgar-landing/static/media/downloadBg.459c0810.png",
+    "static/media/heroImg.png": "/freecodecamp__trafalgar-landing/static/media/heroImg.26336aa1.png",
+    "static/media/leadingBg.png": "/freecodecamp__trafalgar-landing/static/media/leadingBg.53c42f73.png",
+    "static/media/ourServicesBg.png": "/freecodecamp__trafalgar-landing/static/media/ourServicesBg.8ddff4c1.png",
+    "static/media/sliderUser.png": "/freecodecamp__trafalgar-landing/static/media/sliderUser.6aa0d092.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ef1004c.js",
+    "static/js/2.4c9a0be2.chunk.js",
+    "static/js/main.02015f9e.chunk.js"
+  ]
+}
