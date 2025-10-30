@@ -12,32 +12,40 @@
 </div>
 
 ## Overview
+
 Responsive healthcare landing page built with CRA, Emotion, and React Router. Demonstrates reusable UI components and a clean layout; useful as a reference for landing page challenges.
 
 ## Key Features
+
 - Responsive layout with componentized sections (Hero, Services, Testimonials, Articles)
 - CSS-in-JS styling via Emotion with theme and global styles
 - GitHub Pages deployment via `gh-pages`
 
 ## Tech Stack
+
 React 16, Create React App (react-scripts 3), Emotion 10, React Router 5
 
 ## Architecture
+
 CRA app with `src/pages`, `src/components`, and themed Emotion styling. Client-side routing for home and fallback routes; static assets served from `public/`.
 
 ## Performance & Accessibility
+
 Static build with lightweight assets. Semantic HTML and navigable structure for baseline accessibility.
 
 ## Quality
+
 - Linting: ESLint (react-app) • Formatting: none configured
 - Type safety: none
 - Tests: Jest/RTL available via react-scripts; no test files present
 - CI: none
 
 ## Prerequisites
+
 - Node.js: `18.17.0`
 
 ## Installation
+
 ```bash
 git clone https://github.com/maxgalchenko/freecodecamp__trafalgar-landing.git
 cd freecodecamp__trafalgar-landing
@@ -45,21 +53,25 @@ npm install
 ```
 
 ## Quick Start
+
 ```bash
 npm start
 # Production
 npm run build
 npm run deploy
 ```
+
 Open http://localhost:3000
 
 ## Available Scripts
+
 - `npm start` – Start the development server (CRA)
 - `npm run build` – Create an optimized production build to `build/`
 - `npm test` – Run tests in watch mode (no tests included)
 - `npm run deploy` – Publish the `build/` folder to GitHub Pages
 
 ## Screenshots
+
 ![Main](./public/localhost_3000_freecodecamp__trafalgar-landing_.png)
 
 ---
